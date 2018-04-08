@@ -1,0 +1,82 @@
+{
+  "_from": "aframe-speech-command-component",
+  "_id": "aframe-speech-command-component@0.4.2",
+  "_inBundle": false,
+  "_integrity": "sha1-PvhHk5rUZR6Hvvgv3hCEdNU0Jr4=",
+  "_location": "/aframe-speech-command-component",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "aframe-speech-command-component",
+    "name": "aframe-speech-command-component",
+    "escapedName": "aframe-speech-command-component",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/aframe-speech-command-component/-/aframe-speech-command-component-0.4.2.tgz",
+  "_shasum": "3ef847939ad4651e87bef82fde108474d53426be",
+  "_spec": "aframe-speech-command-component",
+  "_where": "C:\\Users\\Oscar Alvarez\\Desktop\\HackUNT",
+  "author": {
+    "name": "Leonardo Malave",
+    "email": "leo@malave.tech"
+  },
+  "bugs": {
+    "url": "https://github.com/lmalave/aframe-speech-command-component/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Speech Command component for A-Frame.",
+  "devDependencies": {
+    "aframe": "^0.3.2",
+    "browserify": "^13.0.0",
+    "budo": "^8.2.2",
+    "ghpages": "^0.0.8",
+    "randomcolor": "^0.4.4",
+    "semistandard": "^8.0.0",
+    "shelljs": "^0.7.0",
+    "shx": "^0.1.1",
+    "snazzy": "^4.0.0",
+    "webpack": "^1.13.0"
+  },
+  "homepage": "https://github.com/lmalave/aframe-speech-command-component#readme",
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webvr",
+    "voice-command"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "aframe-speech-command-component",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmalave/aframe-speech-command-component.git"
+  },
+  "scripts": {
+    "build": "browserify examples/main.js -o examples/build.js",
+    "dev": "budo examples/main.js:build.js --dir examples --port 8000 --live --open",
+    "dist": "webpack index.js dist/aframe-speech-command-component.js && webpack -p index.js dist/aframe-speech-command-component.min.js",
+    "ghpages": "npm run preghpages && ghpages -p gh-pages",
+    "lint": "semistandard -v | snazzy",
+    "preghpages": "npm run build && shx rm -rf gh-pages && shx mkdir gh-pages && shx cp -r examples/* gh-pages",
+    "prepublish": "npm run dist",
+    "start": "npm run dev"
+  },
+  "semistandard": {
+    "ignore": [
+      "examples/build.js",
+      "dist/**"
+    ]
+  },
+  "version": "0.4.2"
+}
