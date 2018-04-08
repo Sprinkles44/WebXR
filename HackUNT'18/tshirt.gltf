@@ -1,0 +1,215 @@
+{
+  "accessors": [
+    {
+      "name": "Object.1-Mesh_positions",
+      "componentType": 5126,
+      "count": 8,
+      "min": [
+        -2.8026859760284424,
+        19.999998092651367,
+        0
+      ],
+      "max": [
+        19.999000549316406,
+        20.851491928100586,
+        39.99800109863281
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "Object.1-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 36,
+      "min": [
+        0
+      ],
+      "max": [
+        7
+      ],
+      "type": "SCALAR",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "Object.2-Mesh_positions",
+      "componentType": 5126,
+      "count": 8,
+      "min": [
+        -18.1119384765625,
+        19.91613006591797,
+        18.01404571533203
+      ],
+      "max": [
+        4.886021137237549,
+        20.851491928100586,
+        39.99800109863281
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 96
+    },
+    {
+      "name": "Object.2-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 36,
+      "min": [
+        0
+      ],
+      "max": [
+        7
+      ],
+      "type": "SCALAR",
+      "bufferView": 1,
+      "byteOffset": 72
+    },
+    {
+      "name": "Object.3-Mesh_positions",
+      "componentType": 5126,
+      "count": 8,
+      "min": [
+        12.207544326782227,
+        19.91613006591797,
+        18.141878128051758
+      ],
+      "max": [
+        35.3120231628418,
+        20.85149383544922,
+        39.870174407958984
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 192
+    },
+    {
+      "name": "Object.3-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 36,
+      "min": [
+        0
+      ],
+      "max": [
+        7
+      ],
+      "type": "SCALAR",
+      "bufferView": 1,
+      "byteOffset": 144
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "tshirt",
+      "byteLength": 504,
+      "uri": "data:application/octet-stream;base64,9P2fQdvPpkH0/R9CNV8zwNvPpkH0/R9CNV8zwP//n0H0/R9CNV8zwNvPpkEAAAAA9P2fQf//n0EAAAAANV8zwP//n0EAAAAA9P2fQdvPpkEAAAAA9P2fQf//n0H0/R9C73IwwDxUn0H0/R9CSVqcQD1Un0HO8PZB73IwwNrPpkH0/R9CnoAnwdvPpkHEHJBBQOWQwT1Un0HeJ9lBQOWQwdvPpkHeJ9lBnoAnwT5Un0HEHJBBSVqcQNrPpkHO8PZBGlJDQT1Un0HmA/RB/XScQT5Un0EPex9CGlJDQdvPpkHmA/RBgz8NQtrPpkHKFNxBFrPfQTxUn0GRIpFBFrPfQdrPpkGRIpFBgz8NQj1Un0HKFNxB/XScQdzPpkEPex9CAAABAAIAAwAEAAUABAADAAYAAgAHAAAABgADAAAAAgADAAUAAAAHAAYAAgAFAAcAAQADAAIABAAGAAcAAQAAAAMABAAHAAUAAAABAAIAAwAEAAUABAADAAYABwACAAEABAAGAAEABAACAAUABwABAAYABQACAAcABAAAAAIABgADAAcAAQAAAAQABwADAAUAAAABAAIAAwAEAAUABAADAAYABwACAAEABAAGAAEABAACAAUABwABAAYABQACAAcABAAAAAIABgADAAcAAQAAAAQABwADAAUA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 288,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "Green",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.129412,
+          0.733333,
+          0.298039,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object.1-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object.2-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object.3-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Object.1",
+      "mesh": 0
+    },
+    {
+      "name": "Object.2",
+      "mesh": 1
+    },
+    {
+      "name": "Object.3",
+      "mesh": 2
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}
